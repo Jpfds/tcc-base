@@ -7,7 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GamesComponent } from './pages/games/games.component';
-import { MainComponent } from './components/main/main.component';
+import { ArtigoComponent } from './components/artigo/artigo.component';
+import { FormComponent } from './components/form/form.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { MainComponent } from './components/main/main.component';
     HomeComponent,
     FooterComponent,
     GamesComponent,
-    MainComponent,
+    ArtigoComponent,
+    ContatoComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
