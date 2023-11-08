@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { GamesComponent } from './pages/games/games.component';
 import { ContatoComponent } from './pages/contato/contato.component';
+import { SofthardComponent } from './pages/softhard/softhard.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path:'contato',
     component: ContatoComponent
+  },
+  {
+    path:'softhard',
+    component: SofthardComponent
   }
 ];
 

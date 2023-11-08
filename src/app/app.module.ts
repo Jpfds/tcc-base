@@ -10,6 +10,7 @@ import { GamesComponent } from './pages/games/games.component';
 import { ArtigoComponent } from './components/artigo/artigo.component';
 import { FormComponent } from './components/form/form.component';
 import { ContatoComponent } from './pages/contato/contato.component';
+import { SofthardComponent } from './pages/softhard/softhard.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContatoComponent } from './pages/contato/contato.component';
     GamesComponent,
     ArtigoComponent,
     ContatoComponent,
-    FormComponent
+    FormComponent,
+    SofthardComponent
   ],
   imports: [
     BrowserModule,
