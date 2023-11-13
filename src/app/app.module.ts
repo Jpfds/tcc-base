@@ -11,6 +11,8 @@ import { ArtigoComponent } from './components/artigo/artigo.component';
 import { FormComponent } from './components/form/form.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { SofthardComponent } from './pages/softhard/softhard.component';
+import { CardComponent } from './components/card/card.component';
+import { JogoComponent } from './pages/jogo/jogo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { SofthardComponent } from './pages/softhard/softhard.component';
     ArtigoComponent,
     ContatoComponent,
     FormComponent,
-    SofthardComponent
+    SofthardComponent,
+    CardComponent,
+    JogoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,20 @@
+.cardstyle {
+    box-shadow: 0 4px 50px 0  blue;
+    transition: 0.8s;
+    width: 30%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 black;
+
+  }
+  
+  .container {
+    padding: 2px 30px;
+    color: black;
+    background-color: white;
+  }
+.cardimg{
+    width: 243px;
+    background-color: white;
+}

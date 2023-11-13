@@ -1,6 +1,8 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 label{
     color: white;
@@ -11,4 +13,11 @@ label{
     border-color: black;
     border-radius: 500px;
     width: 99%;
+}
+.inpuntfeed{
+    height: 50px;
+}
+textarea{
+    resize: none;
+    margin-bottom: 10px;
 }
