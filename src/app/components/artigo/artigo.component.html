@@ -1,4 +1,6 @@
-<img class="image1" src="{{artigoImagem}}" alt="">
+<div *ngIf="artigoImagem != ''">
+    <img class="image1" src="{{artigoImagem}}" alt="{{artigoImageAlt}}">
+</div>
 <p class="pd">{{artigoDescImage}}</p>
 <h2>{{artigoTitulo}}</h2>
 <p>{{artigoDescricao}}</p>

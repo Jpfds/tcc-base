@@ -12,6 +12,7 @@ export class ArtigoComponent {
   @Input() artigoDescricao = "";
   @Input() artigoDescricao1 = "";
   @Input() artigoDescImage = "";
+  @Input() artigoImageAlt="";
 
   constructor(){
   }
