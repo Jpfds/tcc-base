@@ -1,0 +1,28 @@
+.elementCard_conatainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 4rem;
+}
+
+.elementCardimg_conatainer {
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    width: 30%;
+}
+
+.elementCardimg_conatainer > img {
+    width: 100%;
+}
+
+.elementCardcontent_conatainer {
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.elementCardtitle_conatainer {
+    margin-bottom: 1rem;
+}

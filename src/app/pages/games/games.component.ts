@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { artigo } from 'src/app/data/artigo'
 
 @Component({
   selector: 'app-games',

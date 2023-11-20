@@ -13,6 +13,7 @@ import { ContatoComponent } from './pages/contato/contato.component';
 import { SofthardComponent } from './pages/softhard/softhard.component';
 import { CardComponent } from './components/card/card.component';
 import { JogoComponent } from './pages/jogo/jogo.component';
+import { ElementoartigoComponent } from './components/elementoartigo/elementoartigo.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { JogoComponent } from './pages/jogo/jogo.component';
     FormComponent,
     SofthardComponent,
     CardComponent,
-    JogoComponent
+    JogoComponent,
+    ElementoartigoComponent,
   ],
   imports: [
     BrowserModule,
