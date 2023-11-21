@@ -5,17 +5,19 @@
     margin: 0 4rem;
     padding: 5%;
     background: linear-gradient(to bottom,rgb(0, 0, 104),blue) ;
+    margin-top: 30px;
 }
 
 .artigocard-img_container {
-    margin: 0 1rem;
+    margin: 0 5rem;
     margin-bottom: 1rem;
-    width: 30rem;
+    width: 10rem;
     height: auto
 }
 
 .artigocard-img_container > img {
-    width: 100%;
+    width: 225px;
+    height: auto;
 }
 
 .artigocard-conteudo_container {
