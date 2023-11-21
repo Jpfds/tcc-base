@@ -1,12 +1,12 @@
-export type artigoElement = {
-    elementType: string,
-    elementcontent: string
+export type artigoElemento = {
+    elementoTipo: string,
+    elementoConteudo: string
 }
 
 export type artigo = {
     artigoId: number,
     artigoImg: string,
-    artigoTitle: string,
+    artigoTitulo: string,
     artigoDescricao: string,
-    artigoElements: artigoElement[]
+    artigoElements: artigoElemento[]
 }

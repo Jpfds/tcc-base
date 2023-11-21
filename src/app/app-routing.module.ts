@@ -4,11 +4,13 @@ import { HomeComponent } from './pages/home/home.component';
 import { GamesComponent } from './pages/games/games.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { SofthardComponent } from './pages/softhard/softhard.component';
+import { ArtigoComponent } from './components/artigo/artigo.component';
+import { ArtigopageComponent } from './pages/artigopage/artigopage.component';
 
 
 const routes: Routes = [
   {
-    path:'home',
+    path:'',
     component: HomeComponent
   },
   {
@@ -22,6 +24,10 @@ const routes: Routes = [
   {
     path:'softhard',
     component: SofthardComponent
+  },
+  {
+    path:'artigo/:id',
+    component:  ArtigopageComponent
   }
 ];
 

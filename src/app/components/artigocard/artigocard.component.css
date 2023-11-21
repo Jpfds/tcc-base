@@ -1,28 +1,31 @@
-.elementCard_conatainer {
+.artigocard_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 4rem;
+    padding: 5%;
+    background: linear-gradient(to bottom,rgb(0, 0, 104),blue) ;
 }
 
-.elementCardimg_conatainer {
+.artigocard-img_container {
     margin: 0 1rem;
     margin-bottom: 1rem;
-    width: 30%;
+    width: 30rem;
+    height: auto
 }
 
-.elementCardimg_conatainer > img {
+.artigocard-img_container > img {
     width: 100%;
 }
 
-.elementCardcontent_conatainer {
-    margin: 0 1rem;
+.artigocard-conteudo_container {
+    margin:  0 1rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.elementCardtitle_conatainer {
+.artigocard-titulo_container {
     margin-bottom: 1rem;
 }

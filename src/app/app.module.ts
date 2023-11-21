@@ -11,10 +11,10 @@ import { ArtigoComponent } from './components/artigo/artigo.component';
 import { FormComponent } from './components/form/form.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { SofthardComponent } from './pages/softhard/softhard.component';
-import { CardComponent } from './components/card/card.component';
 import { JogoComponent } from './pages/jogo/jogo.component';
-import { ElementoartigoComponent } from './components/elementoartigo/elementoartigo.component';
-
+import { ArtigoCardComponent } from './components/artigocard/artigocard.component';
+import { ArtigoElementoComponent } from './components/artigoelemento/artigo-elemento.component';
+import { ArtigopageComponent } from './pages/artigopage/artigopage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,9 +26,10 @@ import { ElementoartigoComponent } from './components/elementoartigo/elementoart
     ContatoComponent,
     FormComponent,
     SofthardComponent,
-    CardComponent,
     JogoComponent,
-    ElementoartigoComponent,
+    ArtigoCardComponent,
+    ArtigoElementoComponent,
+    ArtigopageComponent,
   ],
   imports: [
     BrowserModule,

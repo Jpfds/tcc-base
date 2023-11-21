@@ -1,0 +1,12 @@
+<div class="elemento" *ngIf="elementoTipo == 'h2'">
+    <h2>{{elementoConteudo}}</h2>
+</div>
+<div class="elemento" *ngIf="elementoTipo == 'h3'">
+    <h3>{{elementoConteudo}}</h3>
+</div>
+<div class="elemento" *ngIf="elementoTipo == 'p'">
+    <p>{{elementoConteudo}}</p>
+</div>
+<div class="img-elemento_container elemento" *ngIf="elementoTipo">
+    <img src="{{elementoConteudo}}" alt="">
+</div>

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { artigo } from 'src/app/data/artigo'
 
 @Component({
   selector: 'app-games',
@@ -7,5 +6,5 @@ import { artigo } from 'src/app/data/artigo'
   styleUrls: ['./games.component.css']
 })
 export class GamesComponent {
-
+  
 }
