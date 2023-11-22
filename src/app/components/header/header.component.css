@@ -3,7 +3,7 @@ header {
     box-shadow: 1px 10px 20px black;
     background: linear-gradient(to bottom,rgb(0, 0, 104),blue) ;
     color: white;
-    min-height: 150px;
+    min-height: 5px;
     padding: 10px ;
     padding-top: 40px;
     background-size: auto;

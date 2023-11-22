@@ -15,6 +15,7 @@ import { JogoComponent } from './pages/jogo/jogo.component';
 import { ArtigoCardComponent } from './components/artigocard/artigocard.component';
 import { ArtigoElementoComponent } from './components/artigoelemento/artigo-elemento.component';
 import { ArtigopageComponent } from './pages/artigopage/artigopage.component';
+import { GamecardComponent } from './components/gamecard/gamecard.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { ArtigopageComponent } from './pages/artigopage/artigopage.component';
     ArtigoCardComponent,
     ArtigoElementoComponent,
     ArtigopageComponent,
+    GamecardComponent,
   ],
   imports: [
     BrowserModule,

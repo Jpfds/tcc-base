@@ -3,14 +3,14 @@ h2{
     font-size: 1.9em;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 800px;
+    max-width: 50rem;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;  
     font-size: 1.5em;  
     margin-top: 20px;
     margin-bottom: 20px;  
-    width: 800px;
+    max-width: 50rem;
 }
 .pd{
     text-align: center;
@@ -25,8 +25,26 @@ p{
     text-align: left;
 }
 .image1{
-    height: 520px;
-    width: 810px; 
+    height: auto;
+    width: 50%; 
     padding-top: 20px;
     padding-bottom: 5px;
+}
+.divimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .facet_sidebar {
+        display:none;
+    }
 }

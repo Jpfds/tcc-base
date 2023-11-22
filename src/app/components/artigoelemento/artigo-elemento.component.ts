@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class ArtigoElementoComponent{
     @Input() elementoTipo = "";
     @Input() elementoConteudo = "";
+    @Input() elementoAlt = "";
 }
