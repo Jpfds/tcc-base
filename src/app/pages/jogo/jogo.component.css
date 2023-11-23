@@ -1,0 +1,13 @@
+.page-jogo{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.jogo-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color:white;
+}

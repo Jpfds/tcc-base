@@ -42,7 +42,7 @@ export const artigoDatabase : artigo[] = [
             },
             {
                 elementoTipo: 'p',
-                elementoConteudo: 'É dificil pensar qual foi o primeiro jogo, pois há mais de 45 mil titulos de todos os tipos de jogos e plataformas, mas, quem poderia imaginar que o primeiro ter acessibilidade foi o classico &quot;jogo da velha&quot; constituido por um computador chamado Bertie The Brain. Pode parecer algo simples mas é algo que revolucionou no fator de inclusividade, o que torna esse jogo inclusivo é o jogador ter acesso a diferentes niveis de dificuldade, com o uso desse recurso tornava as partidas mais abertas a diversos públicos.'
+                elementoConteudo: 'É dificil pensar qual foi o primeiro jogo, pois há mais de 45 mil titulos de todos os tipos de jogos e plataformas, mas, quem poderia imaginar que o primeiro ter acessibilidade foi o classico "jogo da velha" constituido por um computador chamado Bertie The Brain. Pode parecer algo simples mas é algo que revolucionou no fator de inclusividade, o que torna esse jogo inclusivo é o jogador ter acesso a diferentes niveis de dificuldade, com o uso desse recurso tornava as partidas mais abertas a diversos públicos.'
             },
         ]
         

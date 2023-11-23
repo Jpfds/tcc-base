@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { artigo } from 'src/app/data/artigo';
-import { ArtigoService } from 'src/app/services/artigo.service';
+import { games } from 'src/app/data/games';
+import { GamesService } from 'src/app//services/game.service';
 
 @Component({
   selector: 'app-games',
@@ -8,13 +8,13 @@ import { ArtigoService } from 'src/app/services/artigo.service';
   styleUrls: ['./games.component.css']
 })
 export class GamesComponent {
-  artigoDatabase : artigo[] = []
+  gamesDatabase : games[] = []
 
-  constructor (private artigoService : ArtigoService) {
+  constructor (private GamesService : GamesService) {
 
   }
 
   ngOnInit() {
-    this.artigoDatabase = this.artigoService.getAllArtigos()
+    this.gamesDatabase = this.GamesService.getAllGames()
   }
 }

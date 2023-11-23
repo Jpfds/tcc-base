@@ -1,0 +1,42 @@
+.gamecard_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 4rem;
+    padding: 1%;
+    background: linear-gradient(to bottom,rgb(0, 0, 104),blue) ;
+    margin-top: 30px;
+}
+
+.gamecard-img_container {
+    margin: 0 5rem;
+    margin-bottom: 1rem;
+    max-width: 10rem;
+    height: auto
+}
+
+.gamecard-img_container > img {
+    width: 150%;
+    height: auto;
+    margin-top: 25%;
+}
+
+.gamecard-conteudo_container {
+    margin:  0 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.gamecard-titulo_container {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .gamecard_container {
+        flex-direction: column;
+    }
+    
+}

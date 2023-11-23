@@ -1,1 +1,7 @@
-<p>jogo works!</p>
+<div class=".page-jogo">
+    <div class="jogo-conteudo">
+        <gameelemento *ngFor=" let gameelemento of gameelementos" 
+        elementoTipo="{{gameelemento.elementoTipo}}"
+        elementoConteudo="{{gameelemento.elementoConteudo}}"></gameelemento>
+    </div>
+</div>
