@@ -30,7 +30,7 @@ const routes: Routes = [
     component:  ArtigopageComponent
   },
   {
-    path:'game/:id',
+    path:'jogo/:id',
     component: JogoComponent
   }
 ];
