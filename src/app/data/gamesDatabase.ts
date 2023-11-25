@@ -3,14 +3,14 @@ import { games } from "./games";
 export const gamesDatabase: games[] = [
     {
         gamesId: 1,
-        gamesCover: "https://i.imgur.com/ZzyzzyE.jpg",
+        gamesCover: "https://i.imgur.com/H5LfMWf.jpg",
         gamesCoverAlt: "Imagem do jogo The Last of Us 2, com a protagonista Ellie em uma mata verde.",
         gamesTitulo: " The Last of Us II.",
         gamesDescricao: "Depois do primeiro jogo, os personagens Ellie e joel resolveram morar em jackson em wyoming longe dos infectados, 5 anos depois assumimos o controle da Ellie, uma das protagonistas do jogo....",
         gamesElements: [
             {
                 elementoTipo: 'img',
-                elementoConteudo: 'https://i.imgur.com/ZzyzzyE.jpg',
+                elementoConteudo: 'https://i.imgur.com/H5LfMWf.jpg',
                 elementoAcessibilidade: 'Imagem do jogo The Last of Us 2, com a protagonista Ellie em uma mata verde.'
             },
             {
