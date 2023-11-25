@@ -1,6 +1,6 @@
 <artigo  artigoImagem="../../../assets/accesspdsd.png" artigoDescImage="Imagem retirada do site da Microsoft/Xbox." artigoTitulo="Jogos com Acessibilidade" artigoDescricao="Quando entramos no assunto de jogos não podemos esquecer os titulos com mais opções de acessibilidade, até por que em uma era de constante evolução as grandes empresas devem suprir a necessidade do publico independente de suas condições e caracteristicas. " artigoDescricao1="Separamos alguns titulos que possuiem as funções que os tornam mais acessiveis."></artigo>
 <gamecard *ngFor="let games of gamesDatabase"
-routerLink="jogo/{{games.gamesId}}"
+routerLink="{{games.gamesId}}"
 gameCardImg="{{games.gamesCover}}"
 gameCardImgAlt="{{games.gamesCoverAlt}}"
 gameCardTitulo="{{games.gamesTitulo}}"
