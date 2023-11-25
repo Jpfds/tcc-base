@@ -4,14 +4,14 @@ import { artigo } from "./artigo";
 export const artigoDatabase : artigo[] = [
     {
         artigoId: 1,
-        artigoImg: "../../assets/games.jpg" ,
+        artigoImg: "https://i.imgur.com/3mCzCbz.jpg" ,
         artigoImgAlt: "Montagem de imagens sobre 3 jogos separados por colunas sendo:The last of Us 2, God of War Ragnarok e Spider Man Miles Morales.",
         artigoTitulo:"A importancia da acessibilidade nos games.",
         artigoDescricao: "A acessibilidade nos games vem para trazer a inclusão para todos que almejam se divertir sem perder a comodidade, para tornar mais acessiveis os jogos com.....",
         artigoElements:    [
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/games.jpg',
+                elementoConteudo: 'https://i.imgur.com/3mCzCbz.jpg',
                 elementoAcessibilidade: 'Montagem de imagens sobre 3 jogos separados por colunas sendo:The last of Us 2, God of War Ragnarok e Spider Man Miles Morales.'
             },
             {
@@ -31,14 +31,14 @@ export const artigoDatabase : artigo[] = [
     },
     {
         artigoId: 2,
-        artigoImg: "../../assets/Bertie the brain.jpg" ,
+        artigoImg: "https://i.imgur.com/dXHQ0YR.jpg" ,
         artigoImgAlt: "Foto do comediante Danny Kaye em pé à frente do jogo de Bertie The Brain.",
         artigoTitulo:"Primeiro jogo a ter acessibilidade.",
         artigoDescricao: "É dificil pensar qual foi o primeiro jogo, pois há mais de 45 mil titulos de todos os tipos de jogos e plataformas, mas, quem poderia imaginar que o primeiro....",
         artigoElements:    [
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/Bertie the brain.jpg',
+                elementoConteudo: 'https://i.imgur.com/dXHQ0YR.jpg',
                 elementoAcessibilidade: 'Foto do comediante Danny Kaye em pé à frente do jogo de Bertie The Brain.'
             },
             {

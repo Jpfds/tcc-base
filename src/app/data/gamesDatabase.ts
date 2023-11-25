@@ -85,14 +85,14 @@ export const gamesDatabase: games[] = [
     },
     {
         gamesId: 2,
-        gamesCover: '../../assets/godbanner.jpg',
+        gamesCover: 'https://i.imgur.com/jllrCL4.jpg',
         gamesCoverAlt: 'Imagem do jogo God of War Ragnarök.',
         gamesTitulo: 'God of War Ragnarök.',
         gamesDescricao: 'Depois dos acontecimentos do God of war de 2018, Kratos e Atreus acabaram causando o Fimbulwinter, anos depois acabam lidando com as consequências da profecia que tem relação com o ragnarok.... ',
         gamesElements: [
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/godbanner.jpg',
+                elementoConteudo: 'https://i.imgur.com/jllrCL4.jpg',
                 elementoAcessibilidade: 'imagem do jogo God of War Ragnarök.',
             },
             {
@@ -121,7 +121,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/godcontroles.PNG',
+                elementoConteudo: 'https://i.imgur.com/FCAp71v.png',
                 elementoAcessibilidade: 'Configurações de rapeamento de botões do jogo God of War Ragnarok.'
             },
             {
@@ -174,14 +174,14 @@ export const gamesDatabase: games[] = [
     },
     {
         gamesId: 3,
-        gamesCover: '../../assets/ratchetbanner.jpg',
+        gamesCover: 'https://i.imgur.com/DA9bdxO.jpg',
         gamesCoverAlt: 'Imagem do jogo Ratchet & Clank: em uma outra dimensão.',
         gamesTitulo: ' Ratchet & Clank: em uma outra dimensão.',
         gamesDescricao: 'Em uma outra dimensão, Ratchet e Clank, estavam vivendo uma vida de paz, Porém o Dr. Nefarious aparece novamente para provocar o caos: ele rouba de Clank um poderoso dispositivo....',
         gamesElements: [
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/ratchetbanner.jpg',
+                elementoConteudo: 'https://i.imgur.com/DA9bdxO.jpg',
                 elementoAcessibilidade: 'Imagem do jogo Ratchet & Clank: em uma outra dimensão. '
             },
             {
@@ -198,7 +198,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/ratchetcontraste.jpeg',
+                elementoConteudo: 'https://i.imgur.com/jRmaowc.jpg',
                 elementoAcessibilidade: 'Demonstração do alto contraste do jogo com personagem na cor verde.'
             },
             {
@@ -211,7 +211,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/ratchetcorcontrast.jpeg',
+                elementoConteudo: 'https://i.imgur.com/daNrbcS.jpg',
                 elementoAcessibilidade: 'Configuração da alterar as cores dos personagens, items e inimigos.'
             },
             {
@@ -220,7 +220,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/ratchetconfcontrole.jpeg',
+                elementoConteudo: 'https://i.imgur.com/YX4sjOS.jpg',
                 elementoAcessibilidade: 'Configurações de rapeamento de botões do jogo Ratchet e Clank.'
             },
             {
@@ -233,7 +233,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/ratchetcamlenta.jpeg',
+                elementoConteudo: 'https://i.imgur.com/3mNos0u.jpg',
                 elementoAcessibilidade: 'Demonstração de camera lenta do jogo. '
             },
             {
@@ -246,7 +246,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/ratchetlegenda.jpeg',
+                elementoConteudo: 'https://i.imgur.com/ZzyzzyE.jpg',
                 elementoAcessibilidade: 'Personalização das legendas alterar os tamanhos do texto'
             },
             {
@@ -259,7 +259,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'img',
-                elementoConteudo: '../../assets/ratchetconfcortext.jpeg',
+                elementoConteudo: 'https://i.imgur.com/sP5iCnO.jpg',
                  elementoAcessibilidade: 'Personalização das legendas alterando a cor do texto .'
             },
             {
