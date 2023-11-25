@@ -32,7 +32,7 @@ export const gamesDatabase: games[] = [
             {
                 elementoTipo: 'img',
                 elementoConteudo: 'https://live.staticflickr.com/65535/49985544998_06b3e714ba_k.jpg',
-                elementoAcessibilidade: ''
+                elementoAcessibilidade: 'Imagem do jogo The Last of Us II, com a personagen Ellie em local fechado com uma seta em branco em  sua frente.'
             },
             {
                 elementoTipo: 'h2',
@@ -45,7 +45,7 @@ export const gamesDatabase: games[] = [
             {
                 elementoTipo: 'img',
                 elementoConteudo: 'https://live.staticflickr.com/65535/49986059066_9510e67f22_b.jpg',
-                elementoAcessibilidade: ''
+                elementoAcessibilidade: 'Configurações de controle do jogo, rapeamento de botões.'
             },
             {
                 elementoTipo: 'h2',
@@ -70,7 +70,7 @@ export const gamesDatabase: games[] = [
             {
                 elementoTipo: 'img',
                 elementoConteudo: 'https://live.staticflickr.com/65535/49985545948_cd9cce4a87_b.jpg',
-                elementoAcessibilidade: ''
+                elementoAcessibilidade: 'Desmontração da assistência sonora do jogo.'
             },
             {
                 elementoTipo: 'h2',
@@ -85,24 +85,192 @@ export const gamesDatabase: games[] = [
     },
     {
         gamesId: 2,
-        gamesCover: '',
+        gamesCover: '../../assets/godbanner.jpg',
         gamesCoverAlt: 'Imagem do jogo God of War Ragnarök.',
         gamesTitulo: 'God of War Ragnarök.',
-        gamesDescricao: '',
+        gamesDescricao: 'Depois dos acontecimentos do God of war de 2018, Kratos e Atreus acabaram causando o Fimbulwinter, anos depois acabam lidando com as consequências da profecia que tem relação com o ragnarok.... ',
         gamesElements: [
             {
-                elementoTipo: '',
-                elementoConteudo: '',
-                elementoAcessibilidade: '',
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/godbanner.jpg',
+                elementoAcessibilidade: 'imagem do jogo God of War Ragnarök.',
             },
             {
                 elementoTipo: 'h2',
-                elementoConteudo: ''
+                elementoConteudo: 'God of War Ragnarök.'
             },
             {
                 elementoTipo: 'p',
+                elementoConteudo: 'Depois dos acontecimentos do God of war de 2018, Kratos e Atreus acabaram causando o Fimbulwinter, anos depois acabam lidando com as consequências da profecia que tem relação com o ragnarok, que levará ao fim dos nove reinos na mitologia nórdica provocando uma grande guerra, por terem começado o ragnarok odin o pai de todos e seu filho thor deseja eliminá los com isso Kratos e Atreus buscam refúgio na casa dos anões onde irão  iniciar suas jornadas.'
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Acessibiliade no jogo'
+            },
+            {
+                elementoTipo: 'video',
                 elementoConteudo: ''
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Alto Contraste.'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'O alto contraste ressalta os contornos e detalhes dos objetos no jogo. Isso torna os elementos visuais mais nítidos e fáceis de distinguir, promovendo uma melhor compreensão do ambiente virtual.'
+            },
+            {
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/godcontroles.PNG',
+                elementoAcessibilidade: 'Configurações de rapeamento de botões do jogo God of War Ragnarok.'
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Personalizar Controle.'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'A opções de personalização de controles dentro das configurações do jogo é muito importante. Isso pode incluir a capacidade de atribuir funções específicas a botões diferentes, ajustar a sensibilidade do joystick e até mesmo reconfigurar completamente o esquema de controle.'
+            },
+            {
+                elementoTipo: 'video',
+                elementoConteudo: ''
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Cor da legenda de diálogos.',
+            },
+            {
+                elementoTipo: 'P',
+                elementoConteudo: 'Opções: Desabilitado (Branco), Ciano, Verde, Amarelo, Rosa, Laranja, Roxo, Azul.  Com esta opção a legenda do jogo fica bem mais nítidas.'
+                
+            },
+            {
+                elementoTipo: 'video',
+                elementoConteudo: ''
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Filtro de cores'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'Opções: Desabilitado, Vermelho-Verde, Verde-Vermelho, Azul-Amarelo. Esta opção aplica um filtro de tela inteira aos objetos do jogo utilizando a mudança de cores para reduzir a utilização de determinados espectros de cor (também conhecido como Daltonização).'
+            },
+            {
+                elementoTipo: 'video',
+                elementoConteudo: ''
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Sinais sonoros.'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'Reproduz sons adicionais (ou informações direcionais faladas) que correspondam a diversas ações de combate e travessia. (você pode selecionar os áudios disponíveis).'
+            }
+            
+        ]
+    },
+    {
+        gamesId: 3,
+        gamesCover: '../../assets/ratchetbanner.jpg',
+        gamesCoverAlt: 'Imagem do jogo Ratchet & Clank: em uma outra dimensão.',
+        gamesTitulo: ' Ratchet & Clank: em uma outra dimensão.',
+        gamesDescricao: 'Em uma outra dimensão, Ratchet e Clank, estavam vivendo uma vida de paz, Porém o Dr. Nefarious aparece novamente para provocar o caos: ele rouba de Clank um poderoso dispositivo....',
+        gamesElements: [
+            {
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/ratchetbanner.jpg',
+                elementoAcessibilidade: 'Imagem do jogo Ratchet & Clank: em uma outra dimensão. '
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Ratchet & clank: em uma outra dimensão.'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'Em uma outra dimensão, Ratchet e Clank, estavam vivendo uma vida de paz, Porém o Dr. Nefarious aparece novamente para provocar o caos: ele rouba de Clank um poderoso dispositivo, o “Dimensionador”, e abre um portal para uma nova dimensão, onde o vilão sempre vence.'
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Acessibilidade do jogo.'
+            },
+            {
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/ratchetcontraste.jpeg',
+                elementoAcessibilidade: 'Demonstração do alto contraste do jogo com personagem na cor verde.'
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Alto Contraste.'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'A principal função do alto contraste é criar contraste nos elementos do jogo, destacando assim itens importantes como objetos interativos, inimigos e aliados. Esse recurso é direcionado a pessoas com baixa visão que têm dificuldade de ver e distinguir partes interativas de uma cena.'
+            },
+            {
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/ratchetcorcontrast.jpeg',
+                elementoAcessibilidade: 'Configuração da alterar as cores dos personagens, items e inimigos.'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'Esta função permite que você altere as cores do herói, aliados, inimigos, chefes, objetos interativos, obstáculos e itens colecionáveis.'
+            },
+            {
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/ratchetconfcontrole.jpeg',
+                elementoAcessibilidade: 'Configurações de rapeamento de botões do jogo Ratchet e Clank.'
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Personalizar Controles'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'Para jogadores com os mais diferentes tipos de deficiências motoras, sempre é importante termos uma grande variedade de opções para customizar ao máximo os controles do game.'
+            },
+            {
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/ratchetcamlenta.jpeg',
+                elementoAcessibilidade: 'Demonstração de camera lenta do jogo. '
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Função câmera lenta'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'Esses recursos podem ser de grande ajuda para pessoas com deficiência motora ou visual. Essas ferramentas desaceleram o jogo de 30 a 70 por cento , dando aos jogadores mais tempo para realizar ações que exigem reações rápidas e precisas.'
+            },
+            {
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/ratchetlegenda.jpeg',
+                elementoAcessibilidade: 'Personalização das legendas alterar os tamanhos do texto'
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Legendas'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'O player pode personalizar o tamanho da fonte das legendas, os padrões são mínimo, grande (tamanho médio) e máximo.'
+            },
+            {
+                elementoTipo: 'img',
+                elementoConteudo: '../../assets/ratchetconfcortext.jpeg',
+                 elementoAcessibilidade: 'Personalização das legendas alterando a cor do texto .'
+            },
+            {
+                elementoTipo: 'h2',
+                elementoConteudo: 'Customizar legenda'
+            },
+            {
+                elementoTipo: 'p',
+                elementoConteudo: 'Podemos customizar as cores dos textos e nomes de personagens para gerar maior contraste e facilitar a leitura.'
             }
         ]
+
     }
 ]
