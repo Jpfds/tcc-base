@@ -56,8 +56,8 @@ export const gamesDatabase: games[] = [
                 elementoConteudo: 'Os controles alternativos oferecem uma customização dos controles, podendo mudar o comando do botão ou função, já que apertar ou segurar o botão pode ser difícil para algumas pessoas, por isso é muito importante esta função no jogo.'
             },
             {
-                elementoTipo: 'img',
-                elementoConteudo: ''
+                elementoTipo: 'youtubeVideo',
+                elementoConteudo: 'G7lGrW3IlJU'
             },
             {
                 elementoTipo: 'h2',
@@ -71,6 +71,10 @@ export const gamesDatabase: games[] = [
                 elementoTipo: 'img',
                 elementoConteudo: 'https://live.staticflickr.com/65535/49985545948_cd9cce4a87_b.jpg',
                 elementoAcessibilidade: 'Desmontração da assistência sonora do jogo.'
+            },
+            {
+                elementoTipo: 'youtubeVideo',
+                elementoConteudo: 'KIKIDJTKMOc'
             },
             {
                 elementoTipo: 'h2',
@@ -108,8 +112,8 @@ export const gamesDatabase: games[] = [
                 elementoConteudo: 'Acessibiliade no jogo'
             },
             {
-                elementoTipo: 'video',
-                elementoConteudo: ''
+                elementoTipo: 'youtubeVideo',
+                elementoConteudo: 'GcJ63QlSndw&t'
             },
             {
                 elementoTipo: 'h2',
@@ -133,8 +137,8 @@ export const gamesDatabase: games[] = [
                 elementoConteudo: 'A opções de personalização de controles dentro das configurações do jogo é muito importante. Isso pode incluir a capacidade de atribuir funções específicas a botões diferentes, ajustar a sensibilidade do joystick e até mesmo reconfigurar completamente o esquema de controle.'
             },
             {
-                elementoTipo: 'video',
-                elementoConteudo: ''
+                elementoTipo: 'youtubeVideo',
+                elementoConteudo: 'MZE2Kzr6W_Y'
             },
             {
                 elementoTipo: 'h2',
@@ -146,8 +150,8 @@ export const gamesDatabase: games[] = [
                 
             },
             {
-                elementoTipo: 'video',
-                elementoConteudo: ''
+                elementoTipo: 'youtubeVideo',
+                elementoConteudo: 'oRTWqDG40mA'
             },
             {
                 elementoTipo: 'h2',
@@ -158,8 +162,8 @@ export const gamesDatabase: games[] = [
                 elementoConteudo: 'Opções: Desabilitado, Vermelho-Verde, Verde-Vermelho, Azul-Amarelo. Esta opção aplica um filtro de tela inteira aos objetos do jogo utilizando a mudança de cores para reduzir a utilização de determinados espectros de cor (também conhecido como Daltonização).'
             },
             {
-                elementoTipo: 'video',
-                elementoConteudo: ''
+                elementoTipo: 'youtubeVideo',
+                elementoConteudo: 'w6tGYjP3G2'
             },
             {
                 elementoTipo: 'h2',

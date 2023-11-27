@@ -1,9 +1,12 @@
 <div class="divimage" *ngIf="artigoImagem != ''">
-    <img class="image1" src="{{artigoImagem}}" alt="{{artigoImageAlt}}">
+  <img class="image1" src="{{ artigoImagem }}" alt="{{ artigoImageAlt }}" />
 </div>
 <div class="divtext">
-<p class="pd">{{artigoDescImage}}</p>
-<h2 class="">{{artigoTitulo}}</h2>
-<p class=""> {{artigoDescricao}}</p>
-<p class="">{{artigoDescricao1}}</p>
+  <p class="pd">{{ artigoDescImage }}</p>
+  <h2 class="">{{ artigoTitulo }}</h2>
+  <div class="artigo__container">
+    <p *ngFor="let descricao of artigoDescricoes">
+      {{ descricao }}
+    </p>
+  </div>
 </div>

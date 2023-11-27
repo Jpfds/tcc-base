@@ -78,3 +78,9 @@ nav a {
     width: 100px;
 
 }
+
+@media (max-width:320px) {
+    .div2{
+        flex-direction: column;
+    }
+}

@@ -1,18 +1,21 @@
-h2{
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.9em;
     margin-top: 20px;
     margin-bottom: 20px;
     max-width: 50rem;
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;  
-    font-size: 1.5em;  
-    margin-top: 20px;
-    margin-bottom: 20px;  
-    max-width: 50rem;
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    max-width: 100%;
 }
-.pd{
+
+.pd {
     text-align: center;
     color: gray;
 
@@ -21,30 +24,47 @@ p{
     margin-top: 5px;
     margin-bottom: 70px;
 }
-*{
+
+* {
     text-align: left;
 }
-.image1{
+
+.image1 {
     height: auto;
-    width: 50%; 
+    width: 50%;
     padding-top: 20px;
     padding-bottom: 5px;
 }
-.divimage{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.divtext{
+
+.divimage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.divtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    max-width: 50%;
+}
+
 @media (max-width: 768px) {
     .facet_sidebar {
-        display:none;
+        display: none;
+    }
+
+    .divtext{
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .divtext {
+        width: 70%;
     }
 }
