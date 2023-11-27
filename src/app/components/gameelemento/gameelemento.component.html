@@ -10,7 +10,7 @@
 <div class="img-elemento_container elemento" *ngIf="elementoTipo">
     <img src="{{elementoConteudo}}" alt="{{elementoAlt}}">
 </div>
-<div *ngIf="elementoTipo == 'youtubeVideo'">
+<div class="youtube-elemento_container" *ngIf="elementoTipo == 'youtubeVideo'">
     <youtube-player videoId="{{elementoConteudo}}"></youtube-player>
 </div>
 
