@@ -113,7 +113,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'youtubeVideo',
-                elementoConteudo: 'GcJ63QlSndw&t'
+                elementoConteudo: 'GcJ63QlSndw'
             },
             {
                 elementoTipo: 'h2',
@@ -145,7 +145,7 @@ export const gamesDatabase: games[] = [
                 elementoConteudo: 'Cor da legenda de diálogos.',
             },
             {
-                elementoTipo: 'P',
+                elementoTipo: 'p',
                 elementoConteudo: 'Opções: Desabilitado (Branco), Ciano, Verde, Amarelo, Rosa, Laranja, Roxo, Azul.  Com esta opção a legenda do jogo fica bem mais nítidas.'
                 
             },
@@ -163,7 +163,7 @@ export const gamesDatabase: games[] = [
             },
             {
                 elementoTipo: 'youtubeVideo',
-                elementoConteudo: 'w6tGYjP3G2'
+                elementoConteudo: 'w6tGYjP3G2Y'
             },
             {
                 elementoTipo: 'h2',
