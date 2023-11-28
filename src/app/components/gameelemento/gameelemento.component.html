@@ -14,14 +14,14 @@
   <div *ngIf="screen.matches; else screenElse">
     <youtube-player
       videoId="{{ elementoConteudo }}"
-      [width]="500"
+      [width]="300"
       [height]="200"
     ></youtube-player>
   </div>
   <ng-template #screenElse>
     <youtube-player
       videoId="{{ elementoConteudo }}"
-      [width]="1000"
+      [width]="1300"
       [height]="500"
     ></youtube-player>
   </ng-template>

@@ -13,3 +13,16 @@ p{
     font-size: 1.5em;
 }
 
+/* @media (max-width:425px){
+    .img-elemento_container{
+        width: 100%;
+    }
+    .img-elemento_container > img {
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .img-elemento_container{
+        width: 100%;
+    }
+} */

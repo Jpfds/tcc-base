@@ -11,3 +11,8 @@
     justify-content: center;
     color:white;
 }
+@media (max-width:425px){
+    .page-jogo{
+        width: 100%;
+    }
+}
