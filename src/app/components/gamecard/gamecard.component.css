@@ -1,42 +1,62 @@
-.gamecard_container {
+/* @media (max-width: 768px) {
+    .game-card_container {
+        flex-direction: column;
+        margin: auto;
+    }
+    
+} */
+
+.game-card_container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    /*margin: 0 4rem;*/
-    padding: 1%;
+
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
     background: linear-gradient(to bottom,rgb(0, 0, 104),blue) ;
-    margin-top: 30px;
 }
 
-.gamecard-img_container {
-    margin: 0 5rem;
-    margin-bottom: 1rem;
-    max-width: 10rem;
-    height: auto
+.game-card-img_container {
+    margin: 2rem;
+    margin-right: 1rem;
+
+    width: 100%;
 }
 
-.gamecard-img_container > img {
-    width: 150%;
-    height: auto;
-    margin-top: 25%;
+.game-card-img_container > img {
+    width: 100%;
 }
 
-.gamecard-conteudo_container {
-    margin:  0 1rem;
-    margin-bottom: 1rem;
+.game-card-conteudo_container {
     display: flex;
     flex-direction: column;
+
     justify-content: center;
-    padding: 50px;
+
+    margin: 2rem;
+    margin-left: 1rem;
 }
 
-.gamecard-titulo_container {
-    margin-bottom: 1rem;
+@media (max-width: 1024px) {
+    .game-card_container {
+        flex-direction: column;
+    }
+
+    .game-card-img_container {
+        margin: 0;
+    }
 }
 
 @media (max-width: 768px) {
-    .gamecard_container {
-        flex-direction: column;
+    .game-card_container {
+        width: 75%;
     }
-    
 }
+
+@media (max-width: 425px) {
+    .game-card_container {
+        width: 90%;
+    }
+}
+

@@ -1,13 +1,17 @@
-<div class="gamecard_container">
-    <div class="gamecard-img_container">
-        <img src="{{gameCardImg}}" alt="{{gameCardImgAlt}}">
+<div class="game-card_container">
+  <div class="game-card-img_container">
+    <img src="{{ gameCardImg }}" alt="{{ gameCardImgAlt }}" />
+  </div>
+  <div class="game-card-conteudo_container">
+    <div class="game-card-titulo_container">
+      <h2>
+        {{ gameCardTitulo }}
+      </h2>
     </div>
-    <div class="gamecard-conteudo_container">
-        <div class="gamecard-titulo_container">
-            <h2>{{gameCardTitulo}}</h2>
-        </div>
-        <div class="gamecard-descricao_container">
-            <p>{{gameCardDescricao}}</p>
-        </div>
+    <div class="game-card-descricao_container">
+      <p>
+        {{ gameCardDescricao }}
+      </p>
     </div>
+  </div>
 </div>

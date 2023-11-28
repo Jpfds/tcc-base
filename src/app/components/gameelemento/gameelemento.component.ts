@@ -9,4 +9,8 @@ export class GameelementoComponent {
   @Input() elementoTipo = "";
   @Input() elementoConteudo = "";
   @Input() elementoAlt = "";
+
+  screen = window.matchMedia("(max-width:700px)")
+  
+  
 }

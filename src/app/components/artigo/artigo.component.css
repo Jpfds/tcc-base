@@ -52,7 +52,14 @@ p {
     margin: 0 auto;
     max-width: 50%;
 }
-
+@media (max-width:425px) {
+    .divimage {
+        width:100%
+    }
+    .divimage > img {
+        width:100%
+    }
+}
 @media (max-width: 768px) {
     .facet_sidebar {
         display: none;
@@ -60,6 +67,9 @@ p {
 
     .divtext{
         width: 90%;
+    }
+    .divimage{
+        width:100% ;
     }
 }
 

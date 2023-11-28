@@ -1,16 +1,28 @@
 <div class="elemento" *ngIf="elementoTipo == 'h2'">
-    <h2>{{elementoConteudo}}</h2>
+  <h2>{{ elementoConteudo }}</h2>
 </div>
 <div class="elemento" *ngIf="elementoTipo == 'h3'">
-    <h3>{{elementoConteudo}}</h3>
+  <h3>{{ elementoConteudo }}</h3>
 </div>
 <div class="elemento" *ngIf="elementoTipo == 'p'">
-    <p>{{elementoConteudo}}</p>
+  <p>{{ elementoConteudo }}</p>
 </div>
 <div class="img-elemento_container elemento" *ngIf="elementoTipo">
-    <img src="{{elementoConteudo}}" alt="{{elementoAlt}}">
+  <img src="{{ elementoConteudo }}" alt="{{ elementoAlt }}" />
 </div>
-<div class="youtube-elemento_container" *ngIf="elementoTipo == 'youtubeVideo'">
-    <youtube-player videoId="{{elementoConteudo}}"></youtube-player>
+<div *ngIf="elementoTipo == 'youtubeVideo'">
+  <div *ngIf="screen.matches; else screenElse">
+    <youtube-player
+      videoId="{{ elementoConteudo }}"
+      [width]="500"
+      [height]="200"
+    ></youtube-player>
+  </div>
+  <ng-template #screenElse>
+    <youtube-player
+      videoId="{{ elementoConteudo }}"
+      [width]="1000"
+      [height]="500"
+    ></youtube-player>
+  </ng-template>
 </div>
-

@@ -1,7 +1,9 @@
 <div class="page-artigo">
-    <div class="artigo-conteudo">
-        <artigoelemento *ngFor=" let artigoElemento of artigoElementos"
-        elementoTipo="{{artigoElemento.elementoTipo}}"
-        elementoConteudo="{{artigoElemento.elementoConteudo}}"></artigoelemento>
-    </div>
+  <div class="artigo-conteudo">
+    <artigoelemento
+      *ngFor="let artigoElemento of artigoElementos"
+      elementoTipo="{{ artigoElemento.elementoTipo }}"
+      elementoConteudo="{{ artigoElemento.elementoConteudo }}"
+    ></artigoelemento>
+  </div>
 </div>
